@@ -18,6 +18,7 @@ namespace QLTV.Models
         public virtual DbSet<PHIEUMUONSACH> PHIEUMUONSACHes { get; set; }
         public virtual DbSet<PHIEUTHUTIEN> PHIEUTHUTIENs { get; set; }
         public virtual DbSet<SACH> SACHes { get; set; }
+        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<THAMSO> THAMSOes { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

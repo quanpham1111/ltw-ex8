@@ -134,3 +134,9 @@ D:\VisualStudio\QLThuVien\ltw-ex8\QLTV\obj\Debug\QLTV.csproj.CopyComplete
 D:\VisualStudio\QLThuVien\ltw-ex8\QLTV\obj\Debug\QLTV.exe
 D:\VisualStudio\QLThuVien\ltw-ex8\QLTV\obj\Debug\QLTV.pdb
 D:\VisualStudio\QLThuVien\ltw-ex8\QLTV\obj\Debug\QLTV.frmSach.resources
+E:\HUTECH\Nam3\QLTV\QLTV\bin\Debug\EntityFramework.dll
+E:\HUTECH\Nam3\QLTV\QLTV\bin\Debug\EntityFramework.SqlServer.dll
+E:\HUTECH\Nam3\QLTV\QLTV\bin\Debug\EntityFramework.xml
+E:\HUTECH\Nam3\QLTV\QLTV\bin\Debug\EntityFramework.SqlServer.xml
+E:\HUTECH\Nam3\QLTV\QLTV\obj\Debug\QLTV.frmSach.resources
+E:\HUTECH\Nam3\QLTV\QLTV\obj\Debug\QLTV.fPhieuMuonSach.resources

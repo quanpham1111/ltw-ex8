@@ -20,6 +20,8 @@ namespace QLTV.Models
 
         public DateTime NgayMuon { get; set; }
 
+        public DateTime NgayTra { get; set; }
+
         public int? MaDocGia { get; set; }
 
         public virtual DOCGIA DOCGIA { get; set; }

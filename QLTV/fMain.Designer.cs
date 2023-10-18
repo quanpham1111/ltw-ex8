@@ -41,24 +41,23 @@ namespace QLTV
             // 
             // simpleButton1
             // 
-            this.simpleButton1.Location = new System.Drawing.Point(726, 204);
-            this.simpleButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.simpleButton1.Location = new System.Drawing.Point(363, 106);
+            this.simpleButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(150, 42);
+            this.simpleButton1.Size = new System.Drawing.Size(75, 22);
             this.simpleButton1.TabIndex = 0;
             this.simpleButton1.Text = "simpleButton1";
             // 
             // btnQLS
             // 
             this.btnQLS.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(163)));
-            this.btnQLS.Location = new System.Drawing.Point(532, 300);
-            this.btnQLS.Margin = new System.Windows.Forms.Padding(6);
+            this.btnQLS.Location = new System.Drawing.Point(266, 156);
             this.btnQLS.Name = "btnQLS";
-            this.btnQLS.Size = new System.Drawing.Size(525, 206);
+            this.btnQLS.Size = new System.Drawing.Size(262, 107);
             this.btnQLS.TabIndex = 1;
             this.btnQLS.Text = "QLSACH";
             this.btnQLS.UseVisualStyleBackColor = true;
-//            this.btnQLS.Click += new System.EventHandler(this.btnQLS_Click);
+            this.btnQLS.Click += new System.EventHandler(this.btnQLS_Click);
             // 
             // contextMenuStrip1
             // 
@@ -73,7 +72,8 @@ namespace QLTV
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(1835, 50);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(918, 39);
             this.toolStrip1.TabIndex = 4;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -83,18 +83,18 @@ namespace QLTV
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(46, 44);
+            this.toolStripButton1.Size = new System.Drawing.Size(36, 36);
             this.toolStripButton1.Text = "toolStripButton1";
             // 
             // fMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1835, 901);
+            this.ClientSize = new System.Drawing.Size(918, 469);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.btnQLS);
             this.Controls.Add(this.simpleButton1);
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "fMain";
             this.Text = "Form1";
             this.toolStrip1.ResumeLayout(false);

@@ -17,6 +17,10 @@ namespace QLTV
             InitializeComponent();
         }
 
-
+        private void btnQLS_Click(object sender, EventArgs e)
+        {
+            frmSach f = new frmSach();
+            f.Show();
+        }
     }
 }
