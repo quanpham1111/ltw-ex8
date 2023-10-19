@@ -30,5 +30,16 @@ namespace QLTV
             frmSach f = new frmSach();
             f.Show();
         }
+
+        private void fMain_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FNhanVien f = new FNhanVien();
+            f.Show();
+        }
     }
 }
