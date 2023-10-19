@@ -17,7 +17,15 @@ namespace QLTV
             InitializeComponent();
         }
 
-        private void btnQLS_Click(object sender, EventArgs e)
+        
+
+        private void quảnLýPhiếuMượnToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            fPhieuMuonSach f = new fPhieuMuonSach();
+            f.Show();
+        }
+
+        private void quảnLýSáchToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmSach f = new frmSach();
             f.Show();

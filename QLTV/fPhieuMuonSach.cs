@@ -30,6 +30,12 @@ namespace QLTV
 
             //dtpMuon.MinDate = DateTime.Now;
             //dtpTra.MinDate = DateTime.Now;
+
+            dtpMuon.Format = DateTimePickerFormat.Custom;
+            dtpMuon.CustomFormat = "dd/MM/yyyy";
+
+            dtpTra.Format = DateTimePickerFormat.Custom;
+            dtpTra.CustomFormat = "dd/MM/yyyy";
         }
 
         public void FillCBTenSach(List<SACH> bookList)
