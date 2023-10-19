@@ -24,6 +24,7 @@ namespace QLTV
 
         public frmSach()
         {
+
             InitializeComponent();
             BingdingToGridView(bookList);
         }
