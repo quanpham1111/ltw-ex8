@@ -185,6 +185,7 @@ namespace QLTV
             this.dgvPhieuMuon.Size = new System.Drawing.Size(1263, 478);
             this.dgvPhieuMuon.TabIndex = 12;
             this.dgvPhieuMuon.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvPhieuMuon_CellClick);
+            this.dgvPhieuMuon.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dgvPhieuMuon_CellFormatting);
             // 
             // MAPHIEU
             // 
@@ -266,7 +267,7 @@ namespace QLTV
             this.btnTimKiem.AutoSize = true;
             this.btnTimKiem.Location = new System.Drawing.Point(909, 263);
             this.btnTimKiem.Name = "btnTimKiem";
-            this.btnTimKiem.Size = new System.Drawing.Size(81, 30);
+            this.btnTimKiem.Size = new System.Drawing.Size(151, 30);
             this.btnTimKiem.TabIndex = 17;
             this.btnTimKiem.Text = "Tìm kiếm";
             this.btnTimKiem.UseVisualStyleBackColor = true;
@@ -304,9 +305,9 @@ namespace QLTV
             // btnLoc
             // 
             this.btnLoc.AutoSize = true;
-            this.btnLoc.Location = new System.Drawing.Point(1183, 263);
+            this.btnLoc.Location = new System.Drawing.Point(1107, 263);
             this.btnLoc.Name = "btnLoc";
-            this.btnLoc.Size = new System.Drawing.Size(75, 30);
+            this.btnLoc.Size = new System.Drawing.Size(151, 30);
             this.btnLoc.TabIndex = 19;
             this.btnLoc.Text = "Lọc";
             this.btnLoc.UseVisualStyleBackColor = true;

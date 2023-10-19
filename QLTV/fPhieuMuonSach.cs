@@ -28,8 +28,8 @@ namespace QLTV
             FillCBDocGia(DgList);
             BingdingToGridView(list);
 
-            dtpMuon.MinDate = DateTime.Now;
-            dtpTra.MinDate = DateTime.Now;
+            //dtpMuon.MinDate = DateTime.Now;
+            //dtpTra.MinDate = DateTime.Now;
         }
 
         public void FillCBTenSach(List<SACH> bookList)
@@ -245,6 +245,22 @@ namespace QLTV
             {
                 MessageBox.Show("Không có kết quả tìm kiếm nào", "Thông Báo", MessageBoxButtons.OK);
             }
+        }
+
+        private void dgvPhieuMuon_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+            //if (e.ColumnIndex >= 0 && e.RowIndex >= 0) // Đảm bảo chỉ thực hiện định dạng cho ô dữ liệu, không phải tiêu đề cột
+            //{
+            //    if (dgvPhieuMuon.Columns[e.ColumnIndex].Name == "NGAYMUON" || dgvPhieuMuon.Columns[e.ColumnIndex].Name == "NGAYTRA") // Thay thế "DateColumn" bằng tên cột chứa giá trị ngày tháng
+            //    {
+            //        if (e.Value != null && e.Value is DateTime)
+            //        {
+            //            DateTime dateValue = (DateTime)e.Value;
+            //            e.Value = dateValue.ToString("dd/MM/yyyy"); // Định dạng ngày tháng theo yêu cầu của bạn
+            //            e.FormattingApplied = true; // Đánh dấu rằng đã thực hiện định dạng
+            //        }
+            //    }
+            //}
         }
     }
 }
